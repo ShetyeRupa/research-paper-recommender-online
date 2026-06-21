@@ -356,7 +356,7 @@ Contributions are welcome! Please follow these steps:
 | Role | Name | GitHub |
 |:---|:---|:---|
 | **AI Engineer** | Rupali Shetye | [@ShetyeRupa](https://github.com/ShetyeRupa) |
-| **Backend Developer** | Kartavya | |
+| **AI Engineer** | Kartavya | [@Kartavya1905](https://github.com/Kartavya1905) |
 
 **Track:** Graduate
 
