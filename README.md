@@ -4,19 +4,19 @@ title: Research Paper Recommender Online
 emoji: 📚
 colorFrom: indigo
 colorTo: blue
-sdk: docker
+sdk: streamlit
 app_port: 7860
 pinned: false
 license: mit
 tags:
-- research
-- nlp
-- semantic-search
-- paper-recommender
-- streamlit
-- sentence-transformers
-- faiss
-- academic
+  - research
+  - nlp
+  - semantic-search
+  - paper-recommender
+  - streamlit
+  - sentence-transformers
+  - faiss
+  - academic
 ---
 
 # 📚 Research Paper Recommender Online
