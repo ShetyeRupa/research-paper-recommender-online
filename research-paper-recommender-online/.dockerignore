@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.pkl
+*.index
+.DS_Store
+.git
+research_paper_recommender_online/
+research_paper_recommender_online_checked/
+user_library.json
+flagged_papers.json
+my_citations.json
+*.log
