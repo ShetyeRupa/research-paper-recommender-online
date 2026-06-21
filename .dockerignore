@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.so
+.Python
+env/
+venv/
+research_recommender/
+*.json
+!requirements.json
+.DS_Store
+.streamlit/secrets.toml
+.git/
+.github/
+.gitignore
+README.md
+LICENSE
