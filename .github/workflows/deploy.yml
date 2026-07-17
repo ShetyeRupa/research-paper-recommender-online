@@ -6,6 +6,10 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  deployments: write
+  contents: read
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -38,3 +42,16 @@ jobs:
               token='${{ secrets.HF_TOKEN }}'
           )
           "
+
+  create-deployment-status:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create GitHub Deployment
+        uses: chrnorm/deployment-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: "Hugging Face Spaces"
+          environment-url: "https://huggingface.co/spaces/ShetyeRupa/research-paper-recommender-online"
+          description: "Live demo on Hugging Face Spaces"
+          initial-status: "success"
